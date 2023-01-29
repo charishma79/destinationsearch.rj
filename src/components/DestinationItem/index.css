@@ -1,0 +1,38 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+.list {
+  list-style-type: none;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  width: 235px;
+}
+
+img {
+  height: 150px;
+  width: 250px;
+  border-radius: 10px;
+  border-width: 0px;
+}
+
+.place {
+  font-family: Open Sans;
+  font-size: 20px;
+  color: #0f172a;
+  text-align: left;
+  font-weight: 700;
+}
+@media screen and (max-width: 576px) {
+  img {
+    height: 100px;
+    width: 180px;
+  }
+  .name {
+    font-size: 15px;
+  }
+}
